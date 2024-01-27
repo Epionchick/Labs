@@ -6,38 +6,38 @@ int main() {
 	setlocale(0, "");
 	while (true)
 	{
-		cout << " [+] Функции калькулятора:\n\n [1] Сложение | +\n [2] Вычитание | -\n [3] Умножение | *\n [4] Деление | /\n [5] Деление от остатка | %\n\n";
-		cout << " [>] Введите пример: ";
+		cout << " [+] Г”ГіГ­ГЄГ¶ГЁГЁ ГЄГ Г«ГјГЄГіГ«ГїГІГ®Г°Г :\n\n [1] Г‘Г«Г®Г¦ГҐГ­ГЁГҐ | +\n [2] Г‚Г»Г·ГЁГІГ Г­ГЁГҐ | -\n [3] Г“Г¬Г­Г®Г¦ГҐГ­ГЁГҐ | *\n [4] Г„ГҐГ«ГҐГ­ГЁГҐ | /\n [5] Г„ГҐГ«ГҐГ­ГЁГҐ Г®ГІ Г®Г±ГІГ ГІГЄГ  | %\n\n";
+		cout << " [>] Г‚ГўГҐГ¤ГЁГІГҐ ГЇГ°ГЁГ¬ГҐГ°: ";
 		float num1, num2;
 		char oper;
 		cin >> num1 >> oper >> num2;
 		if (oper == '+') {
-			cout << "\n [+] Ответ: " << num1 + num2 << "\n" << endl;
+			cout << "\n [+] ГЋГІГўГҐГІ: " << num1 + num2 << "\n" << endl;
 			cout << " ";
 			system("pause");
 			system("cls");
 		}
 		if (oper == '-') {
-			cout << "\n [+] Ответ: " << num1 - num2 << "\n" << endl;
+			cout << "\n [+] ГЋГІГўГҐГІ: " << num1 - num2 << "\n" << endl;
 			cout << " ";
 			system("pause");
 			system("cls");
 		}
 		if (oper == '*') {
-			cout << "\n [+] Ответ: " << num1 * num2 << "\n" << endl;
+			cout << "\n [+] ГЋГІГўГҐГІ: " << num1 * num2 << "\n" << endl;
 			cout << " ";
 			system("pause");
 			system("cls");
 		}
 		if (oper == '/' and num2 == 0) {
-			cout << "\n [+] Дейстсвие невозможно!" << "\n" << endl;
+			cout << "\n [+] Г„ГҐГ©Г±ГІГ±ГўГЁГҐ Г­ГҐГўГ®Г§Г¬Г®Г¦Г­Г®!" << "\n" << endl;
 			cout << " ";
 			system("pause");
 			system("cls");
 			return 0;
 		}
 		if (oper == '/') {
-			cout << "\n [+] Ответ: " << num1 / num2 << "\n" << endl;
+			cout << "\n [+] ГЋГІГўГҐГІ: " << num1 / num2 << "\n" << endl;
 			cout << " ";
 			system("pause");
 			system("cls");
@@ -45,7 +45,7 @@ int main() {
 		if (oper == '%') {
 			int n1 = num1;
 			int n2 = num2;
-			cout << "\n [+] Ответ: " << n1 % n2 << "\n" << endl;
+			cout << "\n [+] ГЋГІГўГҐГІ: " << n1 % n2 << "\n" << endl;
 			cout << " ";
 			system("pause");
 			system("cls");
