@@ -7,158 +7,158 @@ int main() {
     while (true) {
         int lang;
         int word;
-        cout << "\n [+] Переводчик\n\n [1] Русские слова\n [2] Английские слова\n [3] Выйти\n\n [>] Выбор: ";
+        cout << "\n [+] РџРµСЂРµРІРѕРґС‡РёРє\n\n [1] Р СѓСЃСЃРєРёРµ СЃР»РѕРІР°\n [2] РђРЅРіР»РёР№СЃРєРёРµ СЃР»РѕРІР°\n [3] Р’С‹Р№С‚Рё\n\n [>] Р’С‹Р±РѕСЂ: ";
         cin >> lang;
         system("cls");
         
         switch (lang) {
         case 1:
-            cout << "\n [+] Переводчик “Список русских слов”\n\n [1] Дом\n [2] Дорога\n [3] Машина\n [4] Работа\n [5] Кино\n [6] Окно\n [7] Шкаф\n [8] Доска\n [9] Стол\n [10] Стул\n [11] Завтрак\n [12] Обед\n\n [+] Выберите номер слова: ";
+            cout << "\n [+] РџРµСЂРµРІРѕРґС‡РёРє вЂњРЎРїРёСЃРѕРє СЂСѓСЃСЃРєРёС… СЃР»РѕРІвЂќ\n\n [1] Р”РѕРј\n [2] Р”РѕСЂРѕРіР°\n [3] РњР°С€РёРЅР°\n [4] Р Р°Р±РѕС‚Р°\n [5] РљРёРЅРѕ\n [6] РћРєРЅРѕ\n [7] РЁРєР°С„\n [8] Р”РѕСЃРєР°\n [9] РЎС‚РѕР»\n [10] РЎС‚СѓР»\n [11] Р—Р°РІС‚СЂР°Рє\n [12] РћР±РµРґ\n\n [+] Р’С‹Р±РµСЂРёС‚Рµ РЅРѕРјРµСЂ СЃР»РѕРІР°: ";
             cin >> word;
             system("cls");
             switch (word) {
             case 1:
-                cout << "\n [+] Дом --> House\n\n ";
+                cout << "\n [+] Р”РѕРј --> House\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 2:
-                cout << "\n [+] Дорога --> Road\n\n ";
+                cout << "\n [+] Р”РѕСЂРѕРіР° --> Road\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 3:
-                cout << "\n [+] Машина --> Car\n\n ";
+                cout << "\n [+] РњР°С€РёРЅР° --> Car\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 4:
-                cout << "\n [+] Работа --> Work\n\n ";
+                cout << "\n [+] Р Р°Р±РѕС‚Р° --> Work\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 5:
-                cout << "\n [+] Кино --> Cinema\n\n ";
+                cout << "\n [+] РљРёРЅРѕ --> Cinema\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 6:
-                cout << "\n [+] Окно --> Window\n\n ";
+                cout << "\n [+] РћРєРЅРѕ --> Window\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 7:
-                cout << "\n [+] Шкаф --> Wardrobe\n\n ";
+                cout << "\n [+] РЁРєР°С„ --> Wardrobe\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 8:
-                cout << "\n [+] Доска --> Board\n\n ";
+                cout << "\n [+] Р”РѕСЃРєР° --> Board\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 9:
-                cout << "\n [+] Стол --> Table\n\n ";
+                cout << "\n [+] РЎС‚РѕР» --> Table\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 10:
-                cout << "\n [+] Стул --> Chair\n\n ";
+                cout << "\n [+] РЎС‚СѓР» --> Chair\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 11:
-                cout << "\n [+] Завтрак --> Breakfast\n\n ";
+                cout << "\n [+] Р—Р°РІС‚СЂР°Рє --> Breakfast\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 12:
-                cout << "\n [+] Обед --> Dinner\n\n ";
+                cout << "\n [+] РћР±РµРґ --> Dinner\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             default:
-                cout << "\n [!] Слово отсутсвует в списке!\n\n ";
+                cout << "\n [!] РЎР»РѕРІРѕ РѕС‚СЃСѓС‚СЃРІСѓРµС‚ РІ СЃРїРёСЃРєРµ!\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             }
         case 2:
-            cout << "\n [+] Переводчик “Список английских слов”\n\n [1] House\n [2] Road\n [3] Car\n [4] Work\n [5] Cinema\n [6] Window\n [7] Wardrobe\n [8] Boart\n [9] Table\n [10] Chair\n [11] Breakfast\n [12] Dinner\n\n [+] Выберите номер слова: ";
+            cout << "\n [+] РџРµСЂРµРІРѕРґС‡РёРє вЂњРЎРїРёСЃРѕРє Р°РЅРіР»РёР№СЃРєРёС… СЃР»РѕРІвЂќ\n\n [1] House\n [2] Road\n [3] Car\n [4] Work\n [5] Cinema\n [6] Window\n [7] Wardrobe\n [8] Boart\n [9] Table\n [10] Chair\n [11] Breakfast\n [12] Dinner\n\n [+] Р’С‹Р±РµСЂРёС‚Рµ РЅРѕРјРµСЂ СЃР»РѕРІР°: ";
             cin >> word;
             system("cls");
             switch (word) {
             case 1:
-                cout << "\n [+] House --> Дом\n\n ";
+                cout << "\n [+] House --> Р”РѕРј\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 2:
-                cout << "\n [+] Road --> Дорога\n\n ";
+                cout << "\n [+] Road --> Р”РѕСЂРѕРіР°\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 3:
-                cout << "\n [+] Car --> Машина\n\n ";
+                cout << "\n [+] Car --> РњР°С€РёРЅР°\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 4:
-                cout << "\n [+] Work --> Работа\n\n ";
+                cout << "\n [+] Work --> Р Р°Р±РѕС‚Р°\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 5:
-                cout << "\n [+] Cinema --> Кино\n\n ";
+                cout << "\n [+] Cinema --> РљРёРЅРѕ\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 6:
-                cout << "\n [+] Window --> Окно\n\n ";
+                cout << "\n [+] Window --> РћРєРЅРѕ\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 7:
-                cout << "\n [+] Wardrobe --> Шкаф\n\n ";
+                cout << "\n [+] Wardrobe --> РЁРєР°С„\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 8:
-                cout << "\n [+] Board --> Доска\n\n ";
+                cout << "\n [+] Board --> Р”РѕСЃРєР°\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 9:
-                cout << "\n [+] Table --> Стол\n\n ";
+                cout << "\n [+] Table --> РЎС‚РѕР»\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 10:
-                cout << "\n [+] Chair --> Стул\n\n ";
+                cout << "\n [+] Chair --> РЎС‚СѓР»\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 11:
-                cout << "\n [+] Breakfast --> Завтрак\n\n ";
+                cout << "\n [+] Breakfast --> Р—Р°РІС‚СЂР°Рє\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             case 12:
-                cout << "\n [+] Dinner --> Обед\n\n ";
+                cout << "\n [+] Dinner --> РћР±РµРґ\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             default:
-                cout << "\n [!] Слово отсутсвует в спсиске!\n\n ";
+                cout << "\n [!] РЎР»РѕРІРѕ РѕС‚СЃСѓС‚СЃРІСѓРµС‚ РІ СЃРїСЃРёСЃРєРµ!\n\n ";
                 system("pause");
                 system("cls");
                 continue;
             }
         case 3:
-            cout << "\n [+] Выход\n";
+            cout << "\n [+] Р’С‹С…РѕРґ\n";
             return 0;
         default:
-                cout << "\n [!] Язык отсутсвует в списке!\n";
+                cout << "\n [!] РЇР·С‹Рє РѕС‚СЃСѓС‚СЃРІСѓРµС‚ РІ СЃРїРёСЃРєРµ!\n";
                 system("pause");
                 system("cls");
                 continue;
