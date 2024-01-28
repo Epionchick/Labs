@@ -6,13 +6,13 @@ int main() {
     int num = 1;
 
     while (num != 0) {
-        cout << "\n [+] Ââåäèòå ÷èñëî: ";
+        cout << "\n [+] Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
         cin >> num;
         system("cls");
-        cout << "\n [+] Öèêë WHILE" << endl;
+        cout << "\n [+] Ğ¦Ğ¸ĞºĞ» WHILE" << endl;
         for (int i = 1; i <= num; i++)
         {
-            cout << "\n [+] Öèêë îòğàáîòàë. Êğóã: " << i << endl;
+            cout << "\n [+] Ğ¦Ğ¸ĞºĞ» Ğ¾Ñ‚Ñ€Ğ°Ğ±Ğ¾Ñ‚Ğ°Ğ». ĞšÑ€ÑƒĞ³: " << i << endl;
         }
         cout << "\n ";
         system("pause");
